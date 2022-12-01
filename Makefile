@@ -1,8 +1,8 @@
 .PHONY: help
 
-CONTAINER_PHP=php
+CONTAINER_PHP=php_fpm_php
 CONTAINER_NODE=node
-CONTAINER_DATABASE=database
+CONTAINER_DATABASE=php_fpm_database
 
 VOLUME_DATABASE=laravel-blog_db-vol
 
